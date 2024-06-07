@@ -1,4 +1,5 @@
 {
+    "priority": 1,
     "request": {
         "method": "GET",
         "urlPathPattern": "/api/v1/portfolios/bc80a4ba-9d8a-4e0e-b7b7-93befd37ad41"
