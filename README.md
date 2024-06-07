@@ -28,6 +28,8 @@ Should return 200 OK with JSON response having ABC and DEF portfolios
 
 Should return 200 OK with JSON response for ABC portfolio only
 
+* To get Not Found (Negative scenario):
+
 `GET http://localhost:8082/api/v1/portfolios/<invalid_uuid>`
 
 Should return 404
