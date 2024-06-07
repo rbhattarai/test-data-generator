@@ -1,8 +1,8 @@
-# test-data-generator
-Uses WireMock to generate test data via REST endpoints
+# Service: test-data-generator
+This test-data-generator service uses WireMock to generate test data via REST endpoints
 
 
-# Execution Steps:
+## Execution Steps:
 
 * In Terminal, Run command:
   
@@ -34,7 +34,7 @@ Should return 200 OK with JSON response for ABC portfolio only
 
 Should return 404
 
-# Adding New Test Data
+## Adding New Test Data
 
 * Clone this repo
 * Go to *test-data/mappings* folder
