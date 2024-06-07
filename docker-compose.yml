@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  test-data-service:
+    image: wiremock/wiremock:latest
+    container_name: test-data-service
+    volumes:
+      - ./test-data:/home/wiremock
+    ports:
+      - 8082:8080

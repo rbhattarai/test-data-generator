@@ -1,0 +1,20 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/api/v1/portfolios/bc80a4ba-9d8a-4e0e-b7b7-93befd37ad41"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": [
+            {
+                "id": "bc80a4ba-9d8a-4e0e-b7b7-93befd37ad41",
+                "title": "DEF",
+                "active": true,
+                "effectiveDate": "2024-04-14"
+            }
+        ],
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
